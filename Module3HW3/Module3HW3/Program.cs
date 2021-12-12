@@ -6,7 +6,9 @@ namespace Module3HW3
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var c1 = new Class1();
+
+           // c1.Action += c1.Pow;
         }
     }
 }
