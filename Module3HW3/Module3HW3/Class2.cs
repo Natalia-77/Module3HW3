@@ -10,7 +10,7 @@ namespace Module3HW3
     {
         private int _y;
 
-        private Predicate<int> Calc(Func<int, int, int> func, int a, int b)
+        public Predicate<int> Calc(Func<int, int, int> func, int a, int b)
         {
             _y = func.Invoke(a, b);
             return Result;
